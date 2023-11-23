@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/.idea/.idea.lab-strategy-pattern.dir/.idea/encodings.xml
+/.idea/.idea.lab-strategy-pattern.dir/.idea/indexLayout.xml
+/.idea/.idea.lab-strategy-pattern.dir/.idea/vcs.xml

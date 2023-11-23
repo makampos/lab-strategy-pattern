@@ -1,14 +1,3 @@
-# lab-strategy-pattern
-
-
-Created a simple system that calculates shipping costs based on different strategies using strategy design pattern.
-
-The shipping cost calculation can vary depending on factors such as shipping method, package weight, and distance. 
-
-
-
-```mermaid
-
 classDiagram
     class IShippingCostStrategy {
         +CalculateCost(weight: double, distance: double): double
@@ -36,5 +25,3 @@ classDiagram
     IShippingCostStrategy <|-- ExpressShippingCost
     IShippingCostStrategy <|-- OvernightShippingCost
     ShippingSystem "1" *-- "1" IShippingCostStrategy : has
-
-```
